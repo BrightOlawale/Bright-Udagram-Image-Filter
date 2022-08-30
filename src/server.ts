@@ -33,7 +33,7 @@ import { Request, Response } from 'express';
   app.get("/filteredimage", async (req: Request, res: Response) => {
     let image_url = req.query.image_url.toString();
     if (!image_url) {
-      return res.status(400).send(`image url required`);
+      return res.status(400).send(`image url is required`);
     }
     let filteredImage = await filterImageFromURL(image_url);
     res.status(200).sendFile(filteredImage, () => {
