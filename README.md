@@ -46,3 +46,7 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
+
+
+## My Elastic Beanstalk Endpoint
+http://bright-udagram-image-filter-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://ichef.bbci.co.uk/news/976/cpsprodpb/124F1/production/_126539947_gettyimages-1185016447-1.jpg
